@@ -1,0 +1,28 @@
+.container {
+  padding: 3rem;
+  width: 200px;
+  border: 1px solid #000;
+  border-radius: 6px;
+  justify-items: center;
+  align-items: center;
+}
+.name {
+  text-align: center;
+  font-weight: bold;
+  padding: 0.5rem 0;
+}
+div {
+  align-items: center;
+  text-align: center;
+}
+.name:hover {
+  color: rgb(35, 2, 2);
+  transition: transform 0.3s;
+  background-color: transparent;
+}
+.container:hover {
+  color: rgb(35, 2, 2);
+  transform: translateY(-13px);
+  transition: transform 0.3s;
+  background-color: rgb(179, 177, 177);
+}

@@ -1,0 +1,11 @@
+.navBar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+}
+.title {
+  text-align: center;
+  align-items: center;
+}

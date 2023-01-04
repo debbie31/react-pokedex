@@ -1,0 +1,15 @@
+.navBarItem {
+  padding: 0.5rem;
+  background-color: rgb(230, 212, 212);
+  border-radius: 10px;
+  color: rgb(45, 17, 17);
+  margin-left: 3.5px;
+  justify-content: space-between;
+  display: inline-block;
+}
+.navBarItem:hover {
+  color: rgb(222, 187, 187);
+  transform: translateY(-13px);
+  transition: transform 0.3s;
+  background-color: rgb(183, 231, 202);
+}
